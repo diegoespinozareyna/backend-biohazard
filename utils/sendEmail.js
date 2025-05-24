@@ -15,7 +15,7 @@ export default async function serndEmail(base64Content, documentoCliente, emailC
         from: process.env.GMAIL_USUARIO_PROD,
         to: ["diegoespinozareyna@gmail.com", "supervisorbiohazard@gmail.com"],
         // cc: correoCliente,
-        subject: `${nombresCliente} - ${moment().tz('America/Lima').format('YYYY-MM-DD HH:mm:ss')}}`, // Asunto del correo
+        subject: `${nombresCliente} - ${moment().tz('America/Lima').format('YYYY-MM-DD HH:mm:ss')}`, // Asunto del correo
         text: `Documento generado ${moment().tz('America/Lima').format('YYYY-MM-DD HH:mm:ss')}`,
         attachments: [
             {

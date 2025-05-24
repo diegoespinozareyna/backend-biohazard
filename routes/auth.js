@@ -28,6 +28,7 @@ app.use(cors({
         "https://vallehermosocanete2.inmobackend.site",
         "https://vallehermosocanete.inmunoz.com",
         "https://biohazardfiles.vercel.app",
+        "http://localhost:5173",
     ], // Permite solo solicitudes desde tu frontend
     methods: ["GET", "POST", "PATCH", "PUT", "DELETE"], // Métodos HTTP permitidos
     allowedHeaders: ["Content-Type", "Authorization"], // Encabezados permitidos
